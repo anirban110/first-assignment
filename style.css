@@ -24,7 +24,7 @@ body{
     background-image: linear-gradient(#ffffff57,#00000050), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 600px;
 }
 .header h3{
     color: white;
@@ -78,7 +78,7 @@ body{
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
-    width: 300px;
+    width: 350px;
     margin: auto;
 }
 .taka button{
@@ -87,4 +87,75 @@ body{
     border: none;
     padding: 10px;
     border-radius: 5px;
+}
+.content{
+    text-align: center;
+    margin-top: 60px;
+}
+.content p{
+    width: 500px;
+    margin: auto;
+}
+.textarea{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 50px;
+}
+.txtarea-A{
+    border: 1px solid #EDF5F6;
+    background-color: #EDF5F6;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.txtarea-A img{
+    width: 50px;
+    padding: 10px;
+}
+.txtarea-B{
+    border: 1px solid #FFEEEE;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.txtarea-B img{
+    width: 50px;
+    padding: 10px;
+}
+.txtarea-C{
+    border: 1px solid #FFF4D6;
+    background-color: #FFF4D6;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.txtarea-C img{
+    width: 50px;
+    padding: 10px;
+}
+.contribute{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.contribute img{
+    width: 300px;
+    padding: 50px;
+}
+.contentarea{
+    padding: 10px;
+}
+.contentarea button{
+    color: white;
+    background-color: #FF3547;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+    border: none;
 }
