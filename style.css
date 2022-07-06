@@ -1,0 +1,35 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    margin: auto;
+    width: 1200px;
+}
+.menubar{
+    color: white;
+    background-color: #FF3547;
+    padding: 10px;
+}
+.menubar button{
+    color: white;
+    background-color: #FF3547;
+    margin: 5px;
+    border: none;
+    font-weight: bolder;
+}
+.header{
+    background-image: linear-gradient(#ffffff57,#00000050), url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.header h3{
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 170px;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
