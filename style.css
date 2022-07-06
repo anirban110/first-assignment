@@ -2,7 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: small;
     margin: auto;
-    width: 1200px;
 }
 .menubar{
     color: white;
@@ -14,13 +13,18 @@ body{
     background-color: #FF3547;
     margin: 5px;
     border: none;
-    font-weight: bolder;
+    font-weight: 700;
+}
+#homepage{
+    background-color: #dddddd4f;
+    padding: 5px;
+    border-radius: 2px;
 }
 .header{
     background-image: linear-gradient(#ffffff57,#00000050), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 .header h3{
     color: white;
@@ -29,7 +33,58 @@ body{
     padding-top: 170px;
 }
 .header h1{
-    text-align: center;
     color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
     text-transform: uppercase;
+    
+}
+#donate{
+    color: white;
+    text-align: center;
+    padding-left: 450px;
+    width: 450px;
+}
+.header a{
+    color: white;
+    background-color: #FF3547;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 56%;
+    left: 45%;
+}
+.donatenow{
+    text-align: center;
+    padding: 10px;
+}
+.money{
+    display: flex;
+    width: 500px;
+    padding-left: 38%;
+}
+.donatemoney{
+    padding: 15px;
+}
+#five{
+    border: 2px solid #ff354656;
+    background-color: #ff35463b;
+    border-radius: 2px;
+}
+.taka{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+}
+.taka button{
+    color: white;
+    background-color: #FF3547;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
 }
